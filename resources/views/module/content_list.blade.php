@@ -84,7 +84,7 @@
                                             <a title="Quick view" class="search" href="#"></a>
                                     </div>
                                     <div class="add-to-cart">
-                                        <a title="Add to Cart" href="mua-hang/{{$r->Product_ID}}">Add to Cart</a>
+                                        <a title="Add to Cart" href="mua-hang/{{$pro->Product_ID}}">Add to Cart</a>
                                     </div>
                                 </div>
                                 <div class="right-block">
