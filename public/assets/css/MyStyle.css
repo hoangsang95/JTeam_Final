@@ -1,0 +1,96 @@
+
+
+#addItem {
+    background: #ff3366;
+    color: #fff;
+    padding: 5px;
+  
+}
+
+#addItem:hover{
+  opacity: 0.8;
+  
+}
+
+#wishItem:hover{
+    background: #ff3366;
+  
+}
+
+#deleteItem:hover{
+    background: #ff3366;
+  
+}
+
+
+#wishItem {
+    background: #666;
+    color: #fff;
+    padding:5px 10px;
+
+}
+
+#deleteItem {
+    background: #666;
+    color: #fff;
+    padding: 5px 10px;
+
+}
+/* login */
+.submit-forgot{
+   
+    
+}
+.login{
+    overflow: auto;
+   
+}
+
+.socialLogin{
+    padding: 15px 30px 15px 30px;
+}
+.socialLogin a:hover{
+    text-decoration: none;
+}
+
+.facebook:hover {
+	background:#354F88;
+}
+
+.facebook{
+    background-color: #3B5998;
+}
+
+.facebook img{
+    background-color: #354F88;
+    padding: 7px ;
+}
+
+.facebook i {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 400;
+    padding: 9px 0;
+}
+
+.google{
+    background-color: #DE4C34;
+}
+
+.google img{
+    background-color: #CE3E26;
+    padding: 7px ;
+}
+
+.google i {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 400;
+    padding: 9px 0;
+}
+
+.google:hover {
+	background: #CE3E26;
+}
+
+

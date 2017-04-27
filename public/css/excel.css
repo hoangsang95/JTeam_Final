@@ -1,0 +1,17 @@
+body{ font-family: DejaVu Sans; }
+table, th, td{
+    border: 2px solid #000000;
+}
+th{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+body{
+    text-align: center;
+}
+
+table{
+    width: 70%;
+    margin: 0 auto;
+}

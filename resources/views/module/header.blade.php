@@ -1,0 +1,77 @@
+<div class="container main-header">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-3 logo">
+                <a href="{{ url('/') }}"><img height="65" alt="DoGomBatTrang" src="assets/images/gom/logo.jpg" /></a>
+            </div>
+            <div class="col-xs-7 col-sm-8 col-md-7 header-search-box">
+                <form class="form-inline" action="{{url('search')}}" method="get" role="search">   
+                      <div class="form-group input-serach">
+                         
+                          <input id="keys" type="text" name="tukhoa" placeholder="Sản phẩm cần tìm..." 
+                                 @if(\Request::is('search'))
+                                 value="{{$tukhoa}}"
+                                 @endif />
+                      </div>
+                    <button type="submit" class="pull-right btn-search" name="search" value="search"></button>
+                </form>
+                <div class="keyword">
+                    <p class="lebal">Từ khóa:</p>
+                    <p>
+                        <a href="search?tukhoa=Gom">Gốm, </a>
+                        <a href="search?tukhoa=Bat+trang">Bát tràng, ...</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-5 col-sm-3 col-md-2 group-button-header">
+                <a title="Compare" href="so-sanh" class="btn-compare">So sánh</a>
+                <a title="My wishlist" href="#" class="btn-heart">Tặng</a>
+                <div class="btn-cart" id="cart-block">
+                    <a title="My cart" href="{{url('gio-hang')}}">Giỏ</a>
+                    <span class="notify notify-right">2</span>
+                    <div class="cart-block">
+                        <div class="cart-block-content">
+                            <h5 class="cart-title">2 sản phẩm trong giỏ</h5>
+                            <div class="cart-block-list">
+                                <ul>
+                                <li class="product-info">
+                                    <div class="p-left">
+                                        <a href="#" class="remove_link"></a>
+                                        <a href="#">
+                                        <img class="img-responsive" src="assets/data/product-100x122.jpg" alt="p10">
+                                        </a>
+                                    </div>
+                                    <div class="p-right">
+                                        <p class="p-name">Donec Ac Tempus</p>
+                                        <p class="p-rice">61,19 €</p>
+                                        <p>Qty: 1</p>
+                                    </div>
+                                </li>
+                                <li class="product-info">
+                                    <div class="p-left">
+                                        <a href="#" class="remove_link"></a>
+                                        <a href="#">
+                                        <img class="img-responsive" src="assets/data/product-s5-100x122.jpg" alt="p10">
+                                        </a>
+                                    </div>
+                                    <div class="p-right">
+                                        <p class="p-name">Donec Ac Tempus</p>
+                                        <p class="p-rice">61,19 €</p>
+                                        <p>Qty: 1</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            </div>
+                            <div class="toal-cart">
+                                <span>Total</span>
+                                <span class="toal-price pull-right">122.38 €</span>
+                            </div>
+                            <div class="cart-buttons">
+                                <a href="{{url('gio-hang')}}" class="btn-check-out">Thanh toán</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>

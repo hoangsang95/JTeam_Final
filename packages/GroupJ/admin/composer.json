@@ -1,0 +1,10 @@
+{
+    "name": "hoang/admin",
+    "authors": [
+        {
+            "name": "Hoang Sang",
+            "email": "sangdlh95@gmail.com"
+        }
+    ],
+    "require": {}
+}

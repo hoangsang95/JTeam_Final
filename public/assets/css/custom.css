@@ -1,0 +1,61 @@
+.option6 #main-menu {
+    padding-left: 15px !important;
+}
+
+/* Chat FB */
+#facebook_message {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 9;
+    min-width: 250px;
+}
+#facebook_message .panel {
+    margin: 0;
+    width: 250px;
+    border-radius: 5px 5px 0 0;
+}
+.panel {
+    border: solid 0;
+}
+#facebook_message .panel .panel-heading {
+    cursor: pointer;
+}
+.panel-default>.panel-heading {
+    background-color: #4267b2;
+    color: #FFF;
+    border-color: #FFF;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    color: inherit;
+}
+#facebook_message .panel .panel-body {
+    padding: 0;
+    border: 0;
+    display: none;
+}
+#facebook_message .panel .panel-body {
+    padding: 0;
+    border: 0;
+    display: none;
+}
+/* End Chat FB */
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
